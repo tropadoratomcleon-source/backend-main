@@ -1,33 +1,3 @@
-POST http://localhost:3333/videos
-Content-Type: application/json
-
-{
-    "title": "Video teste",
-    "description": "Este é o primeiro video de Node.js com MySQL",
-    "duration": 900
-}
-###
-
-GET http://localhost:3333/videos
-# GET http://localhost:3333/videos
-
-###
-
-PUT http://localhost:3333/videos/b9bfb29f-7981-474c-b989-a293c0c341a5
-Content-Type: application/json
-
-{
-    "title": "Auterei este video",
-    "description": "descrição atualizada",
-    "duration": 345
-}
-
-###
-
-DELETE  http://localhost:3333/videos/a94d0036-3ab2-4e15-ad00-5d3ff22783c4
-
-###
-
 POST http://localhost:3333/events
 Content-Type: application/json
 
